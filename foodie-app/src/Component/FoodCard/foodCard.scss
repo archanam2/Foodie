@@ -1,0 +1,73 @@
+.foodcard {
+  height: 350px;
+  width: 28%;
+  border-radius: 5px;
+  padding: 0px 2px;
+  border: 2px solid wheat;
+  text-align: center;
+  margin: 10px 0;
+}
+.foodcard:hover {
+  transition: 0.3s;
+  box-shadow: 5px 6px 8px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.container1 .divshow {
+  display: block;
+}
+
+.container1 .nodivshow {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+.rating {
+  width: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.restaurantName {
+  margin-top: 15px;
+}
+.image {
+  height: 50%;
+  width: 90%;
+  border-radius: 5px 5px 0 0;
+  margin: 10px 10px 0px 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+.container1 {
+  padding: 0px 16px;
+}
+.container1 div {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.container1 span {
+  font-size: 12px;
+}
+.container1 h3 {
+  font-size: 15px;
+  padding-bottom: 1px;
+  color: black;
+}
+.container1 h4 {
+  font-size: 12px;
+  padding-bottom: 1px;
+}
+
+.container1 p {
+  font-size: 12px;
+  padding: 2px 0;
+  text-align: center;
+  color: black;
+}

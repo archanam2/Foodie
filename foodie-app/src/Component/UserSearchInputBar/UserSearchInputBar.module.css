@@ -1,0 +1,57 @@
+form.UserResponse input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 2px;
+}
+
+form.UserResponse input[type="text"]:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+form.UserResponse button:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+form.UserResponse button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #ff5e5b;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-top: 9px;
+  color: black;
+}
+
+form.UserResponse button:hover {
+  background: #0b7dda;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  color: whitesmoke;
+}
+
+form.UserResponse::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.handleForm {
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  margin-top: 70px;
+}
+/*# sourceMappingURL=UserSearchInputBar.module.css.map */

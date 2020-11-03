@@ -1,0 +1,95 @@
+.main_container {
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+}
+
+.sub_container {
+  width: 38%;
+  margin: auto;
+  border: 2px solid gray;
+}
+
+.appeal {
+  text-align: center;
+}
+
+form {
+  width: 100%;
+}
+
+form input {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.phone {
+  width: 70%;
+}
+
+form textarea {
+  width: 80%;
+  height: 40%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.modalcheckbox {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0;
+  margin: 18px auto;
+}
+
+.modalcheckbox input {
+  width: 10%;
+  cursor: pointer;
+}
+
+.modaldeclaration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  font-size: 13px;
+}
+
+form select {
+  width: 80%;
+  height: 34px;
+  margin-top: 14px;
+}
+
+.modalButton {
+  padding: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: green;
+  color: whitesmoke;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.modalButton:hover {
+  color: black;
+}
+
+.verifyPhone {
+  padding: 6px;
+  margin-left: 5px;
+  cursor: pointer;
+  background-color: green;
+  color: whitesmoke;
+}
+/*# sourceMappingURL=UserDetails.module.css.map */

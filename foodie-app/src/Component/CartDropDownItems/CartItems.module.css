@@ -1,0 +1,35 @@
+.CartDropDownItems {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+img {
+  width: 30%;
+  height: 90%;
+}
+
+.ItemsDetails {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: bolder;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 10px 20px !important;
+}
+/*# sourceMappingURL=CartItems.module.css.map */

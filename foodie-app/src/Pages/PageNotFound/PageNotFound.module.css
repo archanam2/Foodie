@@ -1,0 +1,71 @@
+.main_container {
+  width: 100%;
+  height: 100%;
+  margin-top: 120px;
+}
+
+.pnf {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pnf h1 {
+  font-size: 13rem;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-position: center;
+  background-size: 100%;
+  -webkit-filter: drop-shadow(0px 15px 20px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(0px 15px 20px rgba(0, 0, 0, 0.5));
+}
+
+.pnf h2 {
+  font-weight: 300;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+
+.toHomeButton {
+  padding: 10px;
+  cursor: pointer;
+  background-color: none !important;
+  border: 2px solid;
+  color: #3498db;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.toHomeButton:hover {
+  background-color: #3498db;
+  color: whitesmoke;
+  border: 2px solid white;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  border-radius: 7px;
+}
+
+.toHomeButton:focus {
+  outline: none;
+}
+
+.button404 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=PageNotFound.module.css.map */

@@ -1,0 +1,199 @@
+.main_container {
+  width: 100%;
+  height: 100%;
+  margin-top: 110px;
+}
+
+.sub_container {
+  width: 52%;
+  height: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.branding {
+  width: 40%;
+  height: 480px;
+  border-top-right-radius: 90px;
+  background-color: #ade4e6;
+}
+
+.showCase {
+  border-top-right-radius: 90px;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.65;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.showCase h1 {
+  color: whitesmoke;
+  font-weight: 700;
+  font-family: Elephant;
+}
+
+.showCase h1 b {
+  color: #ff5e5b;
+  opacity: 800;
+}
+
+.showCase h3 {
+  color: whitesmoke;
+  font-weight: 500;
+  letter-spacing: 6px;
+  margin-top: 10px;
+}
+
+.signInForm {
+  width: 59.89%;
+  height: 480px;
+  border: 1px solid grey;
+}
+
+.Login {
+  text-align: center;
+  margin-top: 25px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.handleForm {
+  width: 100%;
+  height: 100%;
+}
+
+form {
+  width: 100%;
+  height: 65%;
+  margin-top: 15px;
+  text-align: center;
+}
+
+form input {
+  width: 80%;
+  padding: 8px;
+  border: none !important;
+  border-bottom: 2px solid gray !important;
+  margin: 10px auto;
+  font-size: 18px;
+}
+
+form input::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+form input:-ms-input-placeholder {
+  font-size: 14px;
+}
+
+form input::-ms-input-placeholder {
+  font-size: 14px;
+}
+
+form input::placeholder {
+  font-size: 14px;
+}
+
+form input:focus {
+  background-color: none !important;
+  border: none !important;
+  border-bottom: 2px solid gray !important;
+  outline: none !important;
+}
+
+.handlecheckbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.fogotPassword {
+  color: blue;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.buttons {
+  margin-top: 10px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttons .button1 {
+  width: 300px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.else {
+  color: grey;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.else b {
+  color: black;
+}
+
+.routeToSignUp {
+  color: blue;
+  font-style: italic;
+}
+
+.option {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.button1 {
+  background-color: #ff5e5b;
+  border: 1px solid white;
+}
+
+.button1:focus {
+  border: none;
+  outline: none;
+}
+
+.button1:hover {
+  color: whitesmoke;
+}
+/*# sourceMappingURL=SignUp.module.css.map */

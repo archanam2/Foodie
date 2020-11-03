@@ -1,0 +1,75 @@
+.foodcard {
+  height: 400px;
+  width: 30%;
+  border-radius: 5px;
+  padding: 0px 2px;
+}
+
+.foodcard:hover {
+  -webkit-box-shadow: 5px 6px 8px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 6px 8px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container1 .divshow {
+  display: block;
+}
+
+.container1 .nodivshow {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: 200px;
+  width: 92%;
+  border-radius: 5px 5px 0 0;
+  margin: 10px 10px 0px 10px;
+}
+
+.container1 {
+  padding: 0px 16px;
+}
+
+.container1 div {
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container1 span {
+  font-size: 12px;
+}
+
+.container1 h3 {
+  font-size: 15px;
+  padding-bottom: 1px;
+  color: black;
+}
+
+.container1 h4 {
+  font-size: 12px;
+  padding-bottom: 1px;
+}
+
+.container1 p {
+  font-size: 12px;
+  padding: 2px 0;
+  text-align: center;
+  color: black;
+}
+/*# sourceMappingURL=foodCard.css.map */

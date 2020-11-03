@@ -1,0 +1,86 @@
+.main {
+  margin-top: 60px !important;
+}
+
+.OfferSlider {
+  font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 100px;
+  height: 300px;
+  width: 100%;
+  background-color: #676a79;
+}
+
+.foodCards {
+  width: 80%;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.span1 button {
+  font-size: 1.1rem;
+  border: none;
+  background: transparent;
+  padding: 0px 15px;
+  color: #03045e;
+  font-weight: 700;
+}
+
+.span1 button:hover {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  border-bottom: 1px;
+}
+
+.span1 button:active {
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+}
+
+.span1 {
+  margin-left: 8px;
+  width: 500px;
+  display: inline-block;
+}
+
+.filterhead span {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  color: black;
+  margin: 1rem 3rem;
+}
+
+.toggle-menu {
+  top: 10px;
+  margin: 0 10px;
+  height: 35px;
+  border-radius: 10rem;
+  width: 35px;
+  outline: none;
+  z-index: 1;
+  background-color: rgba(64, 194, 133, 0.693);
+  border-color: rgba(64, 194, 133, 0.693);
+}
+
+.topPick {
+  text-align: center;
+  margin-left: 130px;
+  color: #03045e;
+}
+/*# sourceMappingURL=AllRestaurants.css.map */

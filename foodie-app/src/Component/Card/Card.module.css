@@ -1,0 +1,31 @@
+.colorr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f3cb48;
+  /* margin-top: 15px; */
+  position: relative;
+  width: 100%;
+}
+
+.cardss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 250px;
+  width: 250px;
+  /* border-radius: 50%; */
+  margin: 0 0px;
+  position: absolute;
+}
+
+.cardss:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-box-shadow: -6px -6px 15px -1px rgba(0, 0, 0, 0.75);
+          box-shadow: -6px -6px 15px -1px rgba(0, 0, 0, 0.75);
+}
+/*# sourceMappingURL=Card.module.css.map */

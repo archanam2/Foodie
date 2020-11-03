@@ -1,0 +1,113 @@
+.main_container {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ff5e5b;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  cursor: pointer;
+  width: 70px;
+  height: 60px;
+  margin: 0px 0px;
+  color: black;
+  margin: 0px 5px;
+  border-radius: 5px;
+}
+
+.logo1 {
+  width: 75%;
+  margin: 0px 10px;
+  color: black;
+}
+
+.tagline {
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 12px;
+  margin: 3px 12px;
+}
+
+.Navigation_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 26%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+li :hover {
+  color: whitesmoke !important;
+  -webkit-transition: all 0.3s linear !important;
+  transition: all 0.3s linear !important;
+}
+
+.handleLogo {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.trans {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.activelink {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #1b1464 !important;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.cart_icon {
+  width: 30px;
+  height: 24px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.shopping_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.item_count {
+  position: absolute;
+  font-weight: 8px;
+  font-weight: bold;
+  bottom: 0;
+  margin-right: 1px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=Navbar.module.css.map */
